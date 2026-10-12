@@ -1,0 +1,9 @@
+{
+  "versionCode": 56,
+  "versionName": "3.9",
+  "apk": "bogo-search-v3.9.apk",
+  "note": "新增应用内自动更新；我的页栏目顺序调整；左右滑动切换栏目,片头片尾点击立设，白天夜间模式切换，上一集下一集按钮。",
+  "force": false,
+  "size": 3982511,
+  "sha256": "fe0073a9e249ae23d097948163a63d3084c63666c69f910ab6d67b8efdb6c13b"
+}
