@@ -1,9 +1,9 @@
 {
-  "versionCode": 92,
-  "versionName": "5.2.6",
-  "apk": "bogo-search-v5.2.6.apk",
-  "note": "v5.2.6：① 根治自动更新延迟——改为按 GitHub 最新 commit 实时取更新清单，发版后 CDN 秒生效，不再出现「发了新版却提示已是最新」；② 自 v5.2.5 累计：封面主图源改 360 图搜（国内 CDN 秒出）、全源拦截赌博广告。建议更新。",
+  "versionCode": 93,
+  "versionName": "5.2.7",
+  "apk": "bogo-search-v5.2.7.apk",
+  "note": "v5.2.7：星芽短剧正式进搜索源，且优先展示——搜「长街商潮」等短剧，第一条就是星芽结果，点开直接播，不用在采集站里翻；封面改用星芽自带剧目海报，详情页打开即显示全部集数。建议更新。",
   "force": false,
-  "size": 4202249,
-  "sha256": "aa2d3ce0bd390e862d40b60740f5d0ca29c54f37e02ac065206c8fb2177b1127"
+  "size": 4202587,
+  "sha256": "a436869ad92596a85e19fa7080c7c037ad3b372debdfb5ada4f00df225d0a973"
 }
