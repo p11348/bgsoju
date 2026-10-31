@@ -1,9 +1,9 @@
 {
-  "versionCode": 641,
-  "versionName": "6.4.1",
-  "apk": "bogo-search-v6.4.1.apk",
-  "note": "v6.4.1 紧急修复：之前朋友「检测不到更新」是因更新源依赖的 cdn.jsdelivr.net 与 api.github.com 在大陆被 DNS 污染/阻断。本版把更新源换成国内可达的 jsDelivr 镜像链（gcore/fastly/testingcf/cdn，任一可达即用），并去掉对 api.github.com 的依赖（原来会卡 9 秒超时）。【重要】旧版（6.0.0/6.4.0）二进制里写死的检测域名改不了，需先手动装一次本版，之后自动更新才会正常。本版同时包含 v6.4.0 的全部能力：画中画小窗、去广告保留、GZ 播放器增强（横屏暂停中央图标、倍速可选面板、投屏、定时关闭）。建议更新。",
+  "versionCode": 642,
+  "versionName": "6.4.2",
+  "apk": "bogo-search-v6.4.2.apk",
+  "note": "v6.4.2 修复「检测不到更新」最终版：① 更新源换成国内可达的 jsDelivr 镜像链（gcore/fastly/testingcf/cdn，任一可达即用），解决 cdn.jsdelivr.net 在大陆被墙；② 恢复按 commit sha 直取清单/APK（@<sha>），彻底绕开 jsDelivr 对 @main 长达 12h 的边缘缓存，发版后秒级生效；③ 取不到 sha 时回退 @main，仍走镜像链兜底。本版同时包含 v6.4.0/6.4.1 全部能力：画中画小窗、去广告保留、搜索冷启动重试、GZ 封面、GZ 播放器增强（横屏暂停中央图标、倍速可选面板、投屏、定时关闭）。【重要】旧版（≤6.4.0）二进制写死的检测域名改不了，需先手动装一次本版，之后自动更新才会正常。建议更新。",
   "force": false,
-  "size": 3053150,
-  "sha256": "700f49ffedf2210626554534ea8c7690d2611b27aa9aeec850bdfd5e1343faa8"
+  "size": 3053540,
+  "sha256": "17feae28dc3681651e6aacc550447db94b8820365c496ad1dac7eb2a5bcc2789"
 }
